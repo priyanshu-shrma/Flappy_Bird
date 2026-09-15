@@ -99,7 +99,7 @@ class SoundManager:
         if self.sounds_enabled and self.gameplay_music_file:
             try:
                 pygame.mixer.music.load(self.gameplay_music_file)
-                pygame.mixer.music.set_volume(0.65)
+                pygame.mixer.music.set_volume(0.01)
                 pygame.mixer.music.play(-1)
             except Exception:
                 pass
