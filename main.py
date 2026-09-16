@@ -320,10 +320,10 @@ class Rocket:
         buggy_extra_height = 16
 
         return pygame.Rect(
-            int(self.x + buggy_forward_offset),
-            int(self.y - buggy_extra_height // 2),
+            int(self.x ),
+            int(self.y ),
             self.width,
-            self.height + buggy_extra_height
+            self.height
         )
 
     def get_visual_rect(self):
