@@ -316,8 +316,8 @@ class Rocket:
         # Fix this method so the collision box fits the actual rocket sprite:
         #   return pygame.Rect(self.x, self.y, self.width, self.height)
         # =========================================================================
-        buggy_forward_offset = 18
-        buggy_extra_height = 16
+        buggy_forward_offset = 0
+        buggy_extra_height = 0
 
         return pygame.Rect(
             int(self.x + buggy_forward_offset),
